@@ -61,7 +61,8 @@ const ExchangeCard = ({ name, img, rank, url }) => (
   <a href={url} target={"blank"}>
     <VStack
       w={"52"}
-      shadow={"lg"}
+      shadow={"xl"}
+      backgroundColor={"gray.200"}
       p={"8"}
       borderRadius={"lg"}
       transition={"all 0.3s"}
@@ -74,8 +75,8 @@ const ExchangeCard = ({ name, img, rank, url }) => (
     >
       <Image
         src={img}
-        w={"10"}
-        h={"10"}
+        w={"14"}
+        h={"14"}
         objectFit={"contain"}
         alt={"Exchange"}
       />
