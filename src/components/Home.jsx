@@ -8,7 +8,7 @@ const Home = () => {
     <Box bgColor={"blackAlpha.900"} w={"full"} h={"87vh"}>
       <motion.div
         style={{
-          height: "70vh",
+          height: "60vh",
         }}
         animate={{
           translateY: "20px",
@@ -29,13 +29,22 @@ const Home = () => {
       </motion.div>
 
       <Text
-        fontSize={"6xl"}
+        fontSize={"4xl"}
+        textAlign={"center"}
+        fontWeight={"semibold"}
+        color={"whiteAlpha.700"}
+        mt={"-13"}
+      >
+        "CRYPTO"
+      </Text>
+      <Text
+        fontSize={"2xl"}
         textAlign={"center"}
         fontWeight={"thin"}
         color={"whiteAlpha.700"}
-        mt={"-10"}
+        mt={"2"}
       >
-        Crypto
+        The Best Cryptocurrency Trading Website In Bangladesh
       </Text>
     </Box>
   );
