@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <HStack p={"4"} shadow={"base"} bgColor={"blackAlpha.900"}>
+    <HStack py={"4"} px={"8"} shadow={"base"} bgColor={"blackAlpha.900"}>
       <Button variant={"unstyled"} color={"white"}>
         <Link to="/">Home</Link>
       </Button>
-      <Button variant={"unstyled"} color={"white"}>
+      <Button variant={"unstyled"} color={"white"} mx={"8"}>
         <Link to="/coins">Coins</Link>
       </Button>
       <Button variant={"unstyled"} color={"white"}>
