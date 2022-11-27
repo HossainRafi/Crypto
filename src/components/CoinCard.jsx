@@ -10,6 +10,7 @@ const CoinCard = ({ id, name, img, symbol, price, currencySymbol = "₹" }) => (
       p={"8"}
       borderRadius={"lg"}
       transition={"all 0.3s"}
+      backgroundColor={"gray.200"}
       m={"4"}
       css={{
         "&:hover": {
