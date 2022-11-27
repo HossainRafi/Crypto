@@ -20,8 +20,8 @@ const CoinCard = ({ id, name, img, symbol, price, currencySymbol = "₹" }) => (
     >
       <Image
         src={img}
-        w={"10"}
-        h={"10"}
+        w={"16"}
+        h={"16"}
         objectFit={"contain"}
         alt={"Exchange"}
       />
