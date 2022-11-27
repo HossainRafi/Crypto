@@ -60,7 +60,7 @@ const Exchanges = () => {
 const ExchangeCard = ({ name, img, rank, url }) => (
   <a href={url} target={"blank"}>
     <VStack
-      w={"52"}
+      w={"60"}
       shadow={"xl"}
       backgroundColor={"gray.200"}
       p={"8"}
