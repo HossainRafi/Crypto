@@ -1,6 +1,6 @@
 # Project Name: [Crypto](https://cryptoui.netlify.app)
 
-### Technology Used:
+## Technologies:
 - React.js
 - Chakra UI
 - Axios
