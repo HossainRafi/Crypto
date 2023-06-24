@@ -1,7 +1,5 @@
 # Project Name: [Crypto](https://cryptoui.netlify.app)
 
-## Project Live Link: https://cryptoui.netlify.app
-
 ### Technology Used:
 - React.js
 - Chakra UI
