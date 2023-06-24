@@ -2,11 +2,11 @@
 
 ## Technologies:
 - React.js
-- Chakra UI
 - Axios
 - Chart.js
 - Framer-motion
 - React-router-dom
+- Chakra UI
 - React Icons
 
 ## Project Description:
